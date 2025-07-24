@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Shared Styles */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.display-flex {
+  display: flex;
+}
+.dark-1 {
+  color: #000000;
+}
+.dark-2 {
+  color: #252432;
+}
+.dark-3 {
+  color: #8987a1;
+}
+.bg-light {
+  background-color: #f5f8ff;
+}
+.primary-color {
+  color: #e95a08;
+}
+
+/* Navbar styles */
+.nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link {
+  text-decoration: none;
+}
+.home,
+.cart {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.shop,
+.about-us {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+/* Banner related Styles */
+.banner-title {
+  font-size: 3rem;
+  /* font-size: 65px; */
+  font-weight: 600;
+  line-height: 50px;
+  line-height: 60px;
+}
+.banner-description{
+  font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+text-align: left;
+}
+.banner-container {
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.banner-content {
+ padding: 20px;
+  margin: 5px 10px 40px 50px;
+}
+.banner-img {
+  width: 570px;
+  height: 355px;
+}
