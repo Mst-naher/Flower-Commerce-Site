@@ -153,7 +153,7 @@ gap: 50px;
 }
 .flower-store-img{
   width: 550px;
-  height: 600px;
+  height: 650px;
   margin: 10px;
   margin-left: 0px;
   padding-left: 0px;
@@ -170,8 +170,8 @@ gap: 50px;
  right:-90px;
 }
 .flower-lover-content{
-width: 440px;
-height: 137px;
+width: 740px;
+height: 600px;
 justify-content: center;
 align-items: center;
 margin-right: 0px;
@@ -179,24 +179,26 @@ margin-left: 30px;
 padding:20px;
 }
 .flower-lover-content h2{
-  font-size: 3rem;
-font-weight: 600;
-line-height: 50px;
-letter-spacing: 0%;
+  font-size: 3.5rem;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0.5%;
 text-align: left;
-margin-bottom: 15px;
+margin-top: 10px;
+margin-bottom: 10px;
 
 }
 .flower-lover-content ul{
-margin-top: 35px;
+margin-top: 25px;
 text-align: left;
 }
 .flower-lover-content li{
-font-size: 1.05rem;
-font-weight: 400;
-line-height: 20px;
+font-size: 1.25rem;
+font-weight: 500;
+text-align: left;
+line-height: 25px;
 gap: 15px;
-margin: 20px;
+margin-top: 30px;
 }
 
 /* Responsive Media Query */
