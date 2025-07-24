@@ -100,7 +100,7 @@ gap: 16;
 padding: 20px;
 text-align: center;
 margin: 40px;
-margin-left:180px;
+margin-left:110px;
 }
 .our-plants h2{
   font-size: 2.5rem;
@@ -146,9 +146,65 @@ height: 50px;
   align-items: center;
   margin-bottom: 30px;
 }
+/* Section Flower Lover Styles Start */
+.flower-lover-container{
+margin-top:100px;
+gap: 50px;
+}
+.flower-store-img{
+  width: 550px;
+  height: 600px;
+  margin: 10px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding: 10px;
+ 
+}
+.flower-shop{
+ position: relative;
+ margin: 0 20px;
+}
+.trusted-badge-img{
+ position: absolute;
+ top:-100px;
+ right:-90px;
+}
+.flower-lover-content{
+width: 440px;
+height: 137px;
+justify-content: center;
+align-items: center;
+margin-right: 0px;
+margin-left: 30px;
+padding:20px;
+}
+.flower-lover-content h2{
+  font-size: 3rem;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 15px;
 
+}
+.flower-lover-content ul{
+margin-top: 35px;
+text-align: left;
+}
+.flower-lover-content li{
+font-size: 1.05rem;
+font-weight: 400;
+line-height: 20px;
+gap: 15px;
+margin: 20px;
+}
 
-
-@media screen and(max-width:) {
-  
+/* Responsive Media Query */
+@media screen and(max-width:570px) {
+  .navbar{
+    flex-direction: column;
+  }
+  .mobile{
+    display:none;
+  }
 }
