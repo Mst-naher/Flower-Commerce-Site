@@ -233,7 +233,7 @@
 }
 .deals-left-1 {
   position: static;
-  background-image: url("/images/deal-bloom.png");
+  background-image: url("../images/deal-bloom.png");
   border-radius: 20px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -273,7 +273,7 @@
 }
 
 .deals-left-2 {
-  background-image: url("/images/deal-ana.png");
+  background-image: url("../images/deal-ana.png");
   border-radius: 20px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -308,7 +308,7 @@
 }
 
 .deals-right {
-  background-image: url("/images/deal-zabo.png");
+  background-image: url("../images/deal-zabo.png");
   background-repeat: no-repeat;
   background-size: auto;
   display: flex;
@@ -347,7 +347,7 @@
 /* Section Join The Colorful Styles Start */
 .join-colorful-container {
   position: relative;
-  background-image: url("/images/news-letter-bg.png");
+  background-image: url("../images/news-letter-bg.png");
   background-size: cover;
   background-position: center;
   width: 100%;
