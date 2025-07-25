@@ -33,6 +33,9 @@
 }
 
 /* Navbar styles */
+.logo-image {
+  max-width: 100%;
+}
 .nav-item {
   list-style: none;
   margin-right: 30px;
@@ -81,13 +84,10 @@
 }
 
 .banner-img {
+  max-width: 100%;
   position: absolute;
   top: -10px;
   left: 870px;
-  /* display: block; */
-  /* width: 100%; */
-  /* width: 570px;
-  height: 355px; */
 }
 
 /*   <!-- Our plants Section Styles start --> */
@@ -345,18 +345,18 @@
   text-decoration: underline;
 }
 /* Section Join The Colorful Styles Start */
-.join-colorful-container{
+.join-colorful-container {
   position: relative;
-  background-image: url('/images/assets/news-letter-bg.png');
+  background-image: url("/images/assets/news-letter-bg.png");
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 400px;
   color: white;
   overflow: hidden;
-   text-align: center;
+  text-align: center;
 }
-.overlay{
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -365,18 +365,18 @@
   background-color: rgba(100, 91, 91, 0.945); /* light gray with 40% opacity */
   z-index: 1;
 }
-.content{
+.content {
   position: relative;
   z-index: 2;
   padding: 50px;
   text-align: center;
 }
-.join-colorful-title{
+.join-colorful-title {
   margin-top: 100px;
-  font-size:2.5rem ;
+  font-size: 2.5rem;
 }
- input{
-  width:400px;
+input {
+  width: 400px;
   border: none;
   height: 40px;
   font-size: 1rem;
@@ -391,17 +391,16 @@
   border: none;
   margin: 0;
   margin-left: 0;
-   padding: 10px;
+  padding: 10px;
   width: 150px;
   height: 40px;
 }
 /* Footer Styles Start */
-.container{
-
+.container {
 }
-.footer-container{
+.footer-container {
   width: 50%;
-  height:200px;
+  height: 200px;
   /* border: 2px solid rgb(218, 91, 69); */
   border-radius: 20px;
   /* box-shadow: 10px 10px 10px rgb(166, 166, 240); */
@@ -410,59 +409,78 @@
   margin: 0 auto;
   padding: 30px;
 
- display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: flex-start;
-padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
 }
-.footer-logo-side{
+.footer-logo-side {
   width: 359px;
-height: 179px;
-font-size: 0.6rem;
+  height: 179px;
+  font-size: 0.6rem;
   margin: 15px;
   padding: 10px;
   flex: 1;
 }
-.footer-logo-side p{
+.footer-logo-side p {
   margin-top: 10px;
   font-size: 0.75rem;
   margin: 0 auto;
 }
-.footer-items{
+.footer-items {
   flex: 1;
-display: grid;
-grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
-.footer-links-container li{
+.footer-links-container li {
   width: 150px;
-height: 18px;
+  height: 18px;
   margin: 2px;
   padding: 1.5px;
   font-size: 0.8rem;
   font-weight: 0.7rem;
 }
 
-.footer-social-mediaes{
-margin-top: 30px;
+.footer-social-mediaes {
+  margin-top: 30px;
   display: flex;
   /* flex-wrap: wrap; */
- justify-content: space-evenly;
- align-items: flex-end;
+  justify-content: space-evenly;
+  align-items: flex-end;
   flex: 1;
 }
 
-.footer-social-mediaes{
- 
+.footer-social-mediaes {
 }
 
-
 /* Responsive Media Query */
-@media screen and(max-width:570px) {
+@media (max-width: 768px) {
   .navbar {
-    flex-direction: column;
+    display: flex;
   }
   .mobile {
     display: none;
+  }
+  .banner-img {
+    flex-direction: column-reverse;
+
+    width: 395px;
+    height: 245px;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  .banner-description {
+    font-size: 1rem;
+  }
+  /* Our planets */
+  .our-plants-title {
+    width: 393pxpx;
+    height: 117pxpx;
+  }
+  .card img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
