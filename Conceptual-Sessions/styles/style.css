@@ -108,6 +108,44 @@ height: 137px; */
   text-decoration: underline;
 }
 
+.newsletter-section{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0,0.5)), url(../../images/news-letter-bg.png);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+.newsletter-section h2{
+  color: white;
+}
+.submition-box {
+  display: flex;
+  width: 50%;
+}
+.newsletter-section button{
+  background-color: #e95a08;
+  padding: 20px 50px;
+  color: white;
+  font-weight: 600;
+  font-size:18px ;
+  border: none;
+}
+.submition-box input[type="email"]{
+  width: 100%;
+  padding: 8px 20px;
+  outline: none;
+}
+.submition-box input[type="email"]::placeholder{
+  font-size: 16px;
+  color:#00000080 ;
+}
+
+
 @media screen and (max-width: 576px) {
   .flower-container {
     flex-direction: column;
@@ -147,8 +185,12 @@ height: 137px; */
     grid-column: auto;
     grid-row: auto;
   }
-
-
+ .submition-box button{
+ padding: 8px 20px;
+ }
+.newsletter-section h2{
+  font-size: 20px;
+}
 
 }
 /*  */
